@@ -12,7 +12,6 @@ Welcome to the C++ Documentation project! This repository is a comprehensive gui
 - [Documentation Sections](#documentation-sections)
 - [How to Use](#how-to-use)
 - [External Resources](#external-resources)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Prerequisites
@@ -43,10 +42,6 @@ To explore this documentation, simply navigate through the sections in the table
 ## External Resources
 
 For more detailed information and examples about C++ programming, you can refer to the [C++ Reference on cppreference.com](https://en.cppreference.com/w/cpp). This online reference provides comprehensive documentation and examples for the C++ programming language, including detailed explanations of control structures, data types, functions, and much more. It's a valuable resource for C++ programmers at all levels of expertise.
-
-## Contributing
-
-Contributions to this documentation are welcome! If you'd like to contribute, please check the [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
