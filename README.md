@@ -1,6 +1,5 @@
 # C++ Documentation
 
-![C++ Logo](https://wallpapercave.com/dwp1x/wp4009913.png)
 
 ## Introduction
 
