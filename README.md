@@ -1,7 +1,7 @@
 # C++ Documentation
 
 <div style="float: left; margin-right: 10px;">
-  <img src="https://im5.ezgif.com/tmp/ezgif-5-ef8ab4d73b.gif" alt="Preview" width="900">
+  <img src="https://im5.ezgif.com/tmp/ezgif-5-ef8ab4d73b.gif" alt="Preview" width="300">
 </div>
 
 ## Introduction
