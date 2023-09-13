@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  font-family: Georgia;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 120%;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  margin-left: 0;
+}
+.nav-bar{
+  border: 2px solid black;
+  width: 22%;
+  height: 100%;
+  position: fixed;
+  padding-bottom: 30%;
+}
+nav header {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  overflow: hidden; 
+}
+nav a {
+  text-decoration: none;
+  font-size: 100%;
+  color: black;
+
+}
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+p, li, a {
+  color: rgb(105,105,105);
+}
+nav li {
+  list-style-type: none;
+  width: 100%;
+  border-bottom: 2px solid black;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: black;
+}
+.logo {
+  width: 70%;
+  padding-left: 20%;
+  padding-top: 10%;
+}
+#main-doc {
+  margin-left: 22%;
+  padding: 36px 22px 22px;
+}
+.main-section header {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+/* Media query for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.875em; /* Adjust font size for smaller screens */
+  }
+
+  nav header {
+    font-size: 1.2em; /* Adjust header font size for smaller screens */
+  }
+
+  nav li {
+    font-size: 1em; /* Adjust list item font size for smaller screens */
+  }
+
+  .main-section header {
+    font-size: 1.125em; /* Adjust section header font size for smaller screens */
+  }
+}
+.code-snip {
+  background-color: rgb(211,211,211);
+  padding: 14px;
+  border-radius: 20px;
+  color: black;
+}
+.refrence-link {
+  color: black;
+}
+.refrence-link:hover {
+  color: grey;
+}

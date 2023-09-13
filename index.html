@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <nav class="nav-bar" id="navbar">
+    <header>C++ Documentation</header>
+    <ul>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></li>
+        <li><a href="#C_and_C++" class="nav-link">C and C++</a></li>
+        <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+        <li><a href="#Variables" class="nav-link">Variables</a></li>
+        <li><a href="#Data_types" class="nav-link">Data types</a></li>
+        <li><a href="#if...else_statement" class="nav-link">if...else statement</a></li>
+        <li><a href="#while_statement" class="nav-link">while statement</a></li>
+        <li><a href="#Function_declaration" class="nav-link">Function declaration</a></li>
+        <li><a href="#Reference" class="nav-link">Reference</a></li>
+    </ul>
+    <img src="https://wallpapercave.com/dwp1x/wp4009913.png" class="logo">
+</nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>C++ is a versatile, high-level programming language used for developing a wide range of applications. It combines the features of both procedural and object-oriented programming, making it a powerful and flexible choice for software development.
+        </p>
+        <p>C++ provides a standard library that includes essential components like containers, algorithms, and input/output functions. It also offers core language elements such as data types, operators, control structures, and functions. C++ can be extended for various purposes through the creation of user-defined classes and objects.</p>
+        <p>This language can be employed in various contexts, including: </p>
+        <ul>
+          <li><strong>Application Development:</strong> C++ can be used to build desktop applications, games, and system software.</li>
+          <li><strong>Embedded Systems:</strong> It's a popular choice for programming embedded systems due to its efficiency.</li>
+          <li><strong>High-Performance Computing:</strong> C++ is well-suited for tasks that demand high computational speed.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <p>This guide assumes you have the following basic background: </p>
+        <ul>
+          <li>A general understanding of computer programming concepts.</li>
+          <li>Familiarity with the concepts of variables, data types, and control flow.</li>
+          <li>Some prior experience with coding. If you're new to programming, consider starting with beginner tutorials.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="C_and_C++">
+        <header>C and C++</header>
+        <p>C++ shares similarities with the C programming language but offers additional features and a more robust standard library. C++ is an extension of C, with added support for object-oriented programming.</p>
+      </section>
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <p>To start writing C++ code, here's a basic "Hello World" program:</p>
+        <p class="code-snip"><code>#include iostream <br/>int main() { <br/>std::cout << "Hello, World!" << std::endl; <br/>return 0; <br/>} <br/></code>
+</p>
+<P>Compile and run this program to see "Hello, World!" printed to the console.</P>
+      </section>
+      <section class="main-section"  id="Variables">
+         <header>Variables</header>
+         <p>Variables in C++ are used to store and manipulate data. Variable names, called identifiers, must adhere to specific rules:</p>
+         <ul>
+          <li>Must start with a letter, underscore (_), or dollar sign ($).</li>
+          <li>Subsequent characters can be letters, digits (0-9), underscores, or dollar signs.</li>
+          <li>C++ is case-sensitive, so "myVariable" and "myvariable" are distinct.</li>
+        </ul>
+        <p>You can declare variables in several ways:</p>
+        <ol>
+          <li>Using the <strong>int</strong> keyword: <strong>int x = 42;</strong> (Declares and initializes an integer variable.)</li>
+          <li>Without a keyword (not recommended for beginners): <strong>x = 42;</strong> (Creates a global variable.)</li>
+          <li>Using the <strong>auto</strong> keyword (C++11 and later): <strong>auto y = 13;</strong> (Infers the data type.)</li>
+        </ol>
+      </section>
+      <section class="main-section" id="Data_types">
+        <header>Data types</header>
+        <p>C++ provides several data types, including:</p>
+        <ul>
+          <li><strong>int:</strong> Integer data type.</li>
+          <li><strong>double:</strong> Double-precision floating-point numbers.</li>
+          <li><strong>char:</strong> Character data type</li>
+          <li><strong>bool:</strong> Boolean data type.</li>
+          <li><strong>string:</strong> String data type.</li>
+          <li><strong>User-defined types</strong> (classes and structures) </li>
+        </ul>
+        <p>These data types enable you to work with a wide range of values and perform various operations in your programs.</p>
+      </section>
+      <section class="main-section" id="if...else_statement">
+        <header>if...else statement</header>
+      <p>The <strong>if...else</strong> statement in C++ is used to control the flow of your program based on conditions. It allows you to execute different code blocks depending on whether a given condition is true or false.</p>
+      <p class="code-snip"><code>if (condition) { <br/>
+    // Code to execute if the condition is true  <br/>
+} else {  <br/>
+    // Code to execute if the condition is false  <br/>
+}  <br/></code></p>
+    <ul>
+      <li><strong>condition:</strong> An expression that evaluates to either true or false.</li>
+      <li>Code inside the first block (between <strong>{</strong> and <strong>}</strong>) executes if the condition is true.</li>
+      <li>Code inside the second block (after <strong>else</strong>) executes if the condition is false.</li>
+    </ul>
+    <p>You can also use <strong>else if</strong> to handle multiple conditions in sequence:</p>
+    <p class="code-snip"><code>
+      if (condition1) { <br/>
+    // Code to execute if condition1 is true <br/>
+} else if (condition2) { <br/>
+    // Code to execute if condition2 is true <br/>
+} else { <br/>
+    // Code to execute if neither condition1 nor condition2 is true <br/>
+} <br/></code>
+    </p>
+      </section>
+      <section class="main-section" id="while_statement">
+         <header>while statement</header>
+         <p>
+           The while statement in C++ is used to create loops that execute a block of code repeatedly as long as a specified condition remains true.
+         </p>
+         <p class="code-snip">
+           <code>while (condition) { <br/>
+    // Code to execute while the condition is true  <br/>
+}  <br/></code>
+         </p>
+         <ul>
+           <li><strong>condition:</strong> An expression that determines whether the loop should continue.</li>
+           <li>The code block enclosed by <strong>{</strong> and <strong>}</strong> is executed as long as the condition is true.</li>
+           <li>If the condition becomes false, the loop terminates, and control moves to the next statement after the loop.</li>
+         </ul>
+      </section>
+      <section class="main-section" id="Function_declaration">
+         <header>Function declaration</header>
+         <p>In C++, a function declaration is used to define a function's name, its return type, and the types of its parameters. It serves as a blueprint for the function's implementation. Here's the general syntax for declaring a function:</p>
+         <p class="code-snip"><code>return_type function_name(parameter_type1 parameter1, parameter_type2 parameter2, ...) { </code><br/>
+    // Function implementation <br/>
+} <br/>
+        </p>
+        <ul>
+          <li><strong>return_type:</strong> Specifies the data type of the value that the function will return. Use <strong>void</strong> if the function doesn't return any value.</li>
+          <li><strong>function_name:</strong> The unique name of the function.</li>
+          <li><strong>parameter_type1, parameter_type2,</strong> etc.: The data types of the function's parameters.</li>
+          <li></li>
+        </ul>
+        <p>Here's an example of a function declaration:</p>
+        <p><code>int add(int a, int b);</code> </p>
+        <p>This declaration defines a function named <strong>add</strong> that takes two integer parameters (<strong>a</strong> and <strong>b</strong>) and returns an integer.</p>
+      </section>
+      <section class="main-section" id="Reference">
+         <header>Reference</header>
+         <p>For more detailed information and examples about these topics and others related to C++ programming, you can refer to the <a class="refrence-link" href="https://en.cppreference.com/w/cpp">C++ Reference on cppreference.com.</a> This online reference provides comprehensive documentation and examples for the C++ programming language, including detailed explanations of control structures, data types, functions, and much more. It's a valuable resource for C++ programmers at all levels of expertise.</p> 
+      </section>
+    </main>
+  </body>
+</html>
